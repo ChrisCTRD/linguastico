@@ -1,0 +1,264 @@
+/* Responsivo para celular */
+@media screen and (max-width: 700px) {
+    * {
+        max-width: 100%;
+    }
+    
+    #mob-nav, #overlay {
+        width: 100vw;
+        left: 0;
+    }
+
+	.main-container-1 {
+		display: block;
+		font-size: 10vh;
+	}
+
+	input[type=text], input[type=password], input[type=tel], input[type=date], select, option {
+		width: 100%;
+		min-width: 6vh;
+		min-height: 6vh;
+		font-size: small;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		border-radius: 2vh;
+		background: #f1f1f1;
+		transition: 0.3s;
+	}
+
+	.container-1 {
+		display: block;
+	}
+
+	.container-2 {
+		display: block;
+		column-gap: 5%;
+    	justify-content: center;
+	}
+
+	.container-2 .box-1 {
+		width: 120px;
+	}
+
+	.container-2 .box-2 {
+		width: 120px;
+	}
+
+	.container-2 .box-3 {
+		width: 100px;
+	}
+
+	.container-3 {
+		display: block;
+		column-gap: 3%;
+    	justify-content: center;
+	}
+
+	.container-3 .box-2 {
+		width: 60px;
+	}
+
+	.container-4 {
+		display: block;
+	}
+
+	.container-5 {
+		display: block;
+	}
+
+	label {
+		font-size: medium;
+	}
+
+    body {
+        transform: none !important;
+        padding: 0;
+        margin: 0;
+    }
+
+	.main {
+		padding-right: 40px;
+	}
+
+	.headborder {
+		text-align: center;
+		padding-right: 45px;
+	}
+
+	.titulo {
+		font-size: 4vh;
+	}
+
+	.whiteTitle {
+		padding-left: 0vh;
+		text-align: center;
+	}
+
+	.whiteText {
+		padding-left: 0vh;
+		font-size: 4vh;
+		text-align: center;
+	}
+	
+	.item-center {
+		left: 45%;
+	}
+
+	#theme-switch {
+		top: 34px;
+	}
+
+	#opennav {
+    display: block;
+	}
+
+	#opennav {
+		height: 50px;
+		width: 50px;
+		padding: 0;
+		border-radius: 50%;
+		background-color: var(--base-variant);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 34px;
+		left: 20px;
+		border: 0px solid;
+		cursor: pointer;
+	}
+	
+	#opennav svg {
+		fill: var(--theme-color);
+	}
+
+	#mob-nav {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		height: 100vh;
+		border-radius: 0;
+		width: min(12em, 60%);
+		z-index: 10;
+		border-right: 1px solid var(--theme-color);
+		transition: left 300ms ease-out;
+		cursor: pointer;
+		display: block;
+	}
+
+	#mob-nav.show {
+		left: 0;
+	}
+
+	#mob-nav.show ~ #overlay {
+		display: block;
+	}
+	#closenav {
+		height: 50px;
+		width: 160px;
+		padding: 0;
+		padding-left: 2vh;
+		background-color: var(--base-variant);
+		display: flex;
+		justify-content: left;
+		align-items: flex-end;
+		position: fixed;
+		border: 0px solid;
+		z-index: 11;
+	}
+
+	#closenav svg {
+		float: right;
+		fill: var(--theme-color);
+		cursor: pointer;
+	}
+
+	#topnav ul {
+		padding-top: 10vh;
+		width: 100%;
+		flex-direction: column;
+		background-color: var(--base-variant);
+		height: 100%;
+		position: relative !important;
+	}
+
+	#topnav a {
+		width: 100%;
+		text-align: start;
+		border-radius: 0;
+		border: 0;
+		padding-right: 2.5em;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 0 20px !important;
+        line-height: 1.3 !important;
+        font-size: 16px !important; 
+	}
+
+	    #topnav a:not(.active) {
+        position: relative !important;
+        z-index: 0 !important;
+        transform: none !important;
+    }
+
+	#topnav a.active {
+        min-height: 8vh !important;
+        top: 0 !important;
+        margin: 0 !important;
+        padding: 0 20px !important;
+        transform: none !important;
+        
+        background-color: var(--active-color) !important;
+        color: var(--navtext-color) !important;
+        position: relative !important;
+        z-index: 1 !important;
+        
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+	}
+
+	#topnav a:active {
+        min-height: 8vh !important;
+        top: 0 !important;
+        margin: 0 !important;
+        padding: 0 20px !important;
+        transform: none !important;
+        
+        background-color: var(--active-color) !important;
+        color: var(--navtext-color) !important;
+        position: relative !important;
+        z-index: 1 !important;
+        
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+	}
+
+	#popUp {
+		z-index: 8;
+	}
+
+	table {
+		display: none;
+	}
+
+	.filters {
+		display: none;
+	}
+
+	.pagination-controls {
+		display: none;
+	}
+
+	#mobiletable {
+		display: block;
+	}
+
+	.images {
+		padding-left: 5vh;
+	}
+}

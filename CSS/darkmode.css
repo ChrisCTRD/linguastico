@@ -1,0 +1,53 @@
+.darkmode {
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #ffffff;
+    --secondary-text: #a4a5b8;
+    --active-color:  #b6b970;
+    --navtext-color: rgb(25, 25, 25);
+    --theme-color: #f3f3f3;
+    --table-color: #292f47;
+    --scroll-color: lightgrey;
+    --cadbutton-color: #d38715;
+    --cadhover-color: #9e6e14;
+    transition: 0.1s;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
+
+.darkmode .logo-light {
+    display: none !important;
+}
+
+.darkmode .logo-dark {
+    display: block;
+    width: 300px;
+    height: 150px;
+    display: block !important;
+}
+
+.darkmode .logo-dark.logo-mobile {
+    display: none !important;
+}
+
+/* Ajuste específico para mobile no dark mode */
+@media screen and (max-width: 700px) {
+    .darkmode .logo-dark.logo-desktop {
+        display: none !important;
+    }
+    
+    .darkmode .logo-dark.logo-mobile {
+        display: block !important;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

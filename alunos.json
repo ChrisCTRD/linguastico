@@ -1,0 +1,279 @@
+[
+  {
+    "id": "1",
+    "nome": "JOSÉ SILVA DA COSTA",
+    "data_nascimento": "21/05/2001",
+    "ra": "0001",
+    "curso": "JP",
+    "turno": "MATURNO",
+    "cidade": "Franca"
+  },
+
+  {
+    "id": "2",
+    "nome": "LUCAS DAVI RODRIGUES",
+    "data_nascimento": "12/03/1998",
+    "ra": "0002",
+    "curso": "ING",
+    "turno": "ONLINE",
+    "cidade": "São Paulo"
+  },
+
+  {
+    "id": "3",
+    "nome": "ALEXANDRO DOS SANTOS",
+    "data_nascimento": "27/06/2004",
+    "ra": "0003",
+    "curso": "ESP",
+    "turno": "NOTURNO",
+    "cidade": "Franca"
+  },
+
+  {
+    "id": "4",
+    "nome": "JÚLIO FERNANDES",
+    "data_nascimento": "03/01/2000",
+    "ra": "0004",
+    "curso": "KR",
+    "turno": "ONLINE",
+    "cidade": "Bauru"
+  },
+
+  {
+    "id": "5",
+    "nome": "FERNANDO AUGUSTO ZIDOI",
+    "data_nascimento": "30/09/1998",
+    "ra": "0005",
+    "curso": "JP",
+    "turno": "VESPERTINO",
+    "cidade": "Franca"
+  },
+
+  {
+    "id": "6",
+    "nome": "MARIA FERNANDA OLIVEIRA",
+    "data_nascimento": "15/08/1999",
+    "ra": "0006",
+    "curso": "ING",
+    "turno": "VESPERTINO",
+    "cidade": "São Paulo"
+  },
+  {
+    "id": "7",
+    "nome": "PEDRO HENRIQUE SANTOS",
+    "data_nascimento": "03/12/2000",
+    "ra": "0007",
+    "curso": "ESP",
+    "turno": "NOTURNO",
+    "cidade": "Campinas"
+  },
+  {
+    "id": "8",
+    "nome": "ANA CAROLINA PEREIRA",
+    "data_nascimento": "22/07/2002",
+    "ra": "0008",
+    "curso": "JP",
+    "turno": "MATURNO",
+    "cidade": "Ribeirão Preto"
+  },
+  {
+    "id": "9",
+    "nome": "LUCAS MARTINS RODRIGUES",
+    "data_nascimento": "30/01/1998",
+    "ra": "0009",
+    "curso": "KR",
+    "turno": "ONLINE",
+    "cidade": "São José dos Campos"
+  },
+  {
+    "id": "10",
+    "nome": "JULIANA ALMEIDA COSTA",
+    "data_nascimento": "14/11/2001",
+    "ra": "0010",
+    "curso": "FR",
+    "turno": "VESPERTINO",
+    "cidade": "Sorocaba"
+  },
+  {
+    "id": "11",
+    "nome": "RAFAEL BARBOSA LIMA",
+    "data_nascimento": "05/04/1997",
+    "ra": "0011",
+    "curso": "ING",
+    "turno": "NOTURNO",
+    "cidade": "Santos"
+  },
+  {
+    "id": "12",
+    "nome": "FERNANDA GOMES SOUZA",
+    "data_nascimento": "18/09/2000",
+    "ra": "0012",
+    "curso": "ESP",
+    "turno": "MATURNO",
+    "cidade": "São Bernardo do Campo"
+  },
+  {
+    "id": "13",
+    "nome": "GUSTAVO HENRIQUE FERREIRA",
+    "data_nascimento": "27/02/1999",
+    "ra": "0013",
+    "curso": "JP",
+    "turno": "ONLINE",
+    "cidade": "São Caetano do Sul"
+  },
+  {
+    "id": "14",
+    "nome": "AMANDA RIBEIRO DIAS",
+    "data_nascimento": "08/06/2002",
+    "ra": "0014",
+    "curso": "KR",
+    "turno": "VESPERTINO",
+    "cidade": "Mogi das Cruzes"
+  },
+  {
+    "id": "15",
+    "nome": "BRUNO CARVALHO MENDES",
+    "data_nascimento": "12/03/1998",
+    "ra": "0015",
+    "curso": "FR",
+    "turno": "NOTURNO",
+    "cidade": "Diadema"
+  },
+  {
+    "id": "16",
+    "nome": "CAROLINE MACHADO ALVES",
+    "data_nascimento": "25/10/2001",
+    "ra": "0016",
+    "curso": "ING",
+    "turno": "MATURNO",
+    "cidade": "Jundiaí"
+  },
+  {
+    "id": "17",
+    "nome": "DIEGO OLIVEIRA CUNHA",
+    "data_nascimento": "19/07/1997",
+    "ra": "0017",
+    "curso": "ESP",
+    "turno": "ONLINE",
+    "cidade": "Piracicaba"
+  },
+  {
+    "id": "18",
+    "nome": "ISABELLA SANTANA ROCHA",
+    "data_nascimento": "01/05/2000",
+    "ra": "0018",
+    "curso": "JP",
+    "turno": "VESPERTINO",
+    "cidade": "Bauru"
+  },
+  {
+    "id": "19",
+    "nome": "LEONARDO NUNES MOURA",
+    "data_nascimento": "07/12/1999",
+    "ra": "0019",
+    "curso": "KR",
+    "turno": "NOTURNO",
+    "cidade": "Itaquaquecetuba"
+  },
+  {
+    "id": "20",
+    "nome": "TATIANE FERREIRA BARROS",
+    "data_nascimento": "23/04/2002",
+    "ra": "0020",
+    "curso": "FR",
+    "turno": "MATURNO",
+    "cidade": "São Vicente"
+  },
+  {
+    "id": "21",
+    "nome": "VINICIUS COSTA TEIXEIRA",
+    "data_nascimento": "09/08/1998",
+    "ra": "0021",
+    "curso": "ING",
+    "turno": "ONLINE",
+    "cidade": "Carapicuíba"
+  },
+  {
+    "id": "22",
+    "nome": "PATRICIA LOPES MARQUES",
+    "data_nascimento": "16/01/2001",
+    "ra": "0022",
+    "curso": "ESP",
+    "turno": "VESPERTINO",
+    "cidade": "Rio de Janeiro"
+  },
+  {
+    "id": "23",
+    "nome": "RODRIGO SILVEIRA ANDRADE",
+    "data_nascimento": "04/03/1997",
+    "ra": "0023",
+    "curso": "JP",
+    "turno": "NOTURNO",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "24",
+    "nome": "CAMILA DUARTE FONSECA",
+    "data_nascimento": "11/09/2000",
+    "ra": "0024",
+    "curso": "KR",
+    "turno": "MATURNO",
+    "cidade": "Curitiba"
+  },
+  {
+    "id": "25",
+    "nome": "MARCOS VINICIUS BATISTA",
+    "data_nascimento": "28/06/1999",
+    "ra": "0025",
+    "curso": "FR",
+    "turno": "ONLINE",
+    "cidade": "Porto Alegre"
+  },
+  {
+    "id": "26",
+    "nome": "LETÍCIA MARTINS CARDOSO",
+    "data_nascimento": "13/02/2002",
+    "ra": "0026",
+    "curso": "ING",
+    "turno": "VESPERTINO",
+    "cidade": "Guarulhos"
+  },
+  {
+    "id": "27",
+    "nome": "FELIPE SOUZA RAMOS",
+    "data_nascimento": "20/11/1998",
+    "ra": "0027",
+    "curso": "ESP",
+    "turno": "NOTURNO",
+    "cidade": "Osasco"
+  },
+  {
+    "id": "28",
+    "nome": "GABRIELA ALVES MONTEIRO",
+    "data_nascimento": "06/07/2001",
+    "ra": "0028",
+    "curso": "JP",
+    "turno": "MATURNO",
+    "cidade": "Americana"
+  },
+
+  {
+    "id": "29",
+    "nome": "THIAGO RIBEIRO GOMES",
+    "data_nascimento": "24/10/1997",
+    "ra": "0029",
+    "curso": "KR",
+    "turno": "ONLINE",
+    "cidade": "São José do Rio Preto"
+  },
+
+  {
+    "id": "30",
+    "nome": "CARLA DE MORAIS SANTOS",
+    "data_nascimento": "21/02/1995",
+    "ra": "0030",
+    "curso": "JP",
+    "turno": "ONLINE",
+    "cidade": "Franca"
+  }
+]

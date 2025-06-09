@@ -1,0 +1,29 @@
+{
+    "rewrites": [
+      {
+        "source": "",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/cadastro",
+        "destination": "/cadastro.html"
+      },
+      {
+        "source": "/grafico",
+        "destination": "/grafico.html"
+      },
+      {
+        "source": "/local",
+        "destination": "/local.html"
+      },
+      {
+        "source": "/lista",
+        "destination": "/lista.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/404.html"
+      }
+    ],
+    "cleanUrls": true
+  }
